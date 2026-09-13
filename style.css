@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2A7B9B, #57C785);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    color: #222;
+}
+
+.container {
+    width: 100%;
+    max-width: 90% ;
+    height: 50%;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 18px 50px rgba(0,0,0,0.2);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.lock {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+
+h1 {
+    color: #24243e;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #777;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="password"]:focus {
+    border-color: #667eea;
+}
+
+.check-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.check-btn:hover {
+    background: #5568d8;
+}
+
+.strength-box {
+    margin-top: 22px;
+}
+
+.strength-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.weak {
+    color: #e74c3c;
+}
+
+.medium {
+    color: #f39c12;
+}
+
+.strong {
+    color: #27ae60;
+}
+
+.strength-bar {
+    height: 12px;
+    background: #e5e5e5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.strength-bar div {
+    height: 100%;
+}
+
+.strength-bar div.weak {
+    width: 35%;
+    background: #e74c3c;
+}
+
+.strength-bar div.medium {
+    width: 70%;
+    background: #f39c12;
+}
+
+.strength-bar div.strong {
+    width: 100%;
+    background: #27ae60;
+}
+
+.requirements {
+    background: #f7f7fb;
+    border-radius: 12px;
+    padding: 18px;
+    margin-top: 22px;
+}
+
+.requirements h2,
+.tips h2 {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.requirement {
+    display: flex;
+    gap: 10px;
+    padding: 7px 0;
+    color: #555;
+}
+
+.pass {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+.fail {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 12px;
+    border-left: 5px solid;
+}
+
+.result.weak {
+    background: #fff0ee;
+    border-color: #e74c3c;
+}
+
+.result.medium {
+    background: #fff7e7;
+    border-color: #f39c12;
+}
+
+.result.strong {
+    background: #ecfff2;
+    border-color: #27ae60;
+}
+
+.result p {
+    margin-top: 5px;
+    color: #555;
+}
+
+.tips {
+    margin-top: 24px;
+    padding: 18px;
+    background: #f1f4ff;
+    border-radius: 12px;
+}
+
+.tips ul {
+    padding-left: 20px;
+    color: #555;
+    line-height: 1.7;
+}
+
+
+
+    .card {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
