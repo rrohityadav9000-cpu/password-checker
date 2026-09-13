@@ -1,5 +1,4 @@
 # password-checker
-Student introduction:
 My name is Rohit Yadav  and I am a BCA (Bachelor of Computer Applications) student . This project, Password Strength Checker, is developed as part of my academic learning to understand web application development and password validation.
 
 Project Overview
@@ -52,7 +51,7 @@ Apache
 No MySQL database is required for this project.
 Step 5: Open Browser
 Open your browser and enter:
-http://localhost/pass/
+http://localhost/password/
 The Password Strength Checker will open.
 
 Conclusion
